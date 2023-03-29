@@ -1,0 +1,135 @@
+.status-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.yet-img {
+  width: 80%;
+  align-self: center;
+}
+.yet-description {
+  color: #64748b;
+  font-size: 19px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .yet-description {
+    font-size: 14px;
+  }
+}
+
+.reg-button {
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  outline: none;
+  cursor: pointer;
+  padding: 17px;
+  width: 80%;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .reg-button {
+    font-size: 14px;
+    padding: 7px;
+  }
+}
+
+.registered-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reg-img {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .reg-img {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.reg-description {
+  color: #323f4b;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 768px) {
+  .reg-description {
+    font-size: 14px;
+  }
+}
+
+.reg-closed-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reg-content-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.reg-closed-img {
+  width: 70%;
+  align-self: center;
+}
+.reg-closed-heading {
+  color: #323f4b;
+  font-weight: 900;
+  font-size: 23px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .reg-closed-heading {
+    font-size: 14px;
+  }
+}
+.reg-closed-des {
+  color: #64748b;
+  font-size: 19px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .reg-closed-des {
+    font-size: 12px;
+  }
+}
+.initial-div {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+.initial {
+  color: #323f4b;
+  text-align: center;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .initial {
+    font-size: 20px;
+  }
+}
